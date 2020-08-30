@@ -132,14 +132,12 @@ class Tile extends React.Component {
     // to image
 
     return (
-      <div classNmae="tile_all">
-        <div className="tile">
-          <img
-            onClick={this._clickHandler}
-            src={require(`../../blogPostImages/${this.props.data.image}`)}
-            style={clickStyles}
-          />
-        </div>
+      <div className="tile">
+        <img
+          onClick={this._clickHandler}
+          src={require(`../../blogPostImages/${this.props.data.image}`)}
+          style={clickStyles}
+        />
       </div>
     );
   }

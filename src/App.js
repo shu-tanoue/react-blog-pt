@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ContactUS from "./containers/ContactUS";
 import Gallery from "./containers/gallery/index";
-
+import Post from "./containers/Post";
 function App() {
   const appSecret = "abc123";
 
@@ -18,6 +18,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/contact-us" component={ContactUS} />
         <Route path="/gallery" component={Gallery} />
+        <Route path="/post/:slug" component={Post} />
       </div>
     </Router>
   );

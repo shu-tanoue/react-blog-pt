@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 import Card from "../UI/Card";
 import blogPost from "../../data/blog.json";
-
-/**
+BO
+/*BOO*
  * @author
  * @function BlogPost
- **/
-
+ **/OO
+OO
 const BlogPost = props => {
   const [post, setPost] = useState({
     id: "",
@@ -23,10 +23,7 @@ const BlogPost = props => {
   useEffect(() => {
     const slug = props.match.params.slug;
     const post = blogPost.data.find(post => post.slug == slug);
-    console.log("test");
-    console.log(post);
     setPost(post);
-    console.log(slug);
     setSlug(slug);
   }, [post, props.match.params.slug]);
 

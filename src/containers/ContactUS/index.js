@@ -1,16 +1,12 @@
-import React from 'react'
+import React from "react";
 
 /**
-* @author
-* @function ContactUS
-**/
+ * @author
+ * @function ContactUS
+ **/
 
-const ContactUS = (props) => {
-  return(
-    <div>ContactUS</div>
-    
-   )
+const ContactUS = props => {
+  return <div>ContactUS</div>;
+};
 
- }
-
-export default ContactUS
+export default ContactUS;
