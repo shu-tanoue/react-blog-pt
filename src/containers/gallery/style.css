@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=PT+Sans:400,700";
 
 .tiles {
-  padding: 6vh 16vw;
+  padding-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

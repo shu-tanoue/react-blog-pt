@@ -28,13 +28,13 @@ const Navbar = props => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about-us">About Us</NavLink>
+          <NavLink to="/about-us">Movie</NavLink>
         </li>
         <li>
           <NavLink to="/gallery">Gallery</NavLink>
         </li>
         <li>
-          <NavLink to="/contact-us">Contact Us</NavLink>
+          <NavLink to="/contact-us">Contact</NavLink>
         </li>
       </ul>
     </div>
